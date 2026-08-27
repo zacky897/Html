@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Koleksi Buku Perpustakaan</title>
+</head>
+
+<body>
+
+<h1>Daftar Koleksi Buku Perpustakaan</h1>
+
+<h2>Koleksi Buku Saat Ini</h2>
+
+<table>
+    <tr>
+        <th>No.</th>
+        <th>Judul Buku</th>
+        <th>Penulis</th>
+        <th>Tahun Terbit</th>
+        <th>Jumlah Halaman</th>
+        <th>Genre</th>
+    </tr>
+
+    <tr>
+        <td>1.</td>
+        <td>Filosofi Teras</td>
+        <td>Henry Manampiring</td>
+        <td>2018</td>
+        <td>346</td>
+        <td>Filosofi</td>
+    </tr>
+
+    <tr>
+        <td>2.</td>
+        <td>Atomic Habits</td>
+        <td>James Clear</td>
+        <td>2018</td>
+        <td>320</td>
+        <td>Pengembangan Diri</td>
+    </tr>
+
+    <tr>
+        <td>3.</td>
+        <td>Kitab Kawin</td>
+        <td>Laila Ahmad</td>
+        <td>2018</td>
+        <td>207</td>
+        <td>Horor</td>
+    </tr>
+</table>
+
+<h2>Tambah Buku Baru</h2>
+
+<form>
+    <table>
+        <tr>
+            <td>Judul Buku:</td>
+            <td><input type="text" placeholder="Masukkan judul buku"></td>
+        </tr>
+        <tr>
+            <td>Penulis:</td>
+            <td><input type="text" placeholder="Masukkan nama penulis"></td>
+        </tr>
+        <tr>
+            <td>Tahun Terbit:</td>
+            <td><input type="number" placeholder="eg. 2023"></td>
+        </tr>
+        <tr>
+            <td>Jumlah Halaman:</td>
+            <td><input type="number" placeholder="eg. 300"></td>
+        </tr>
+        <tr>
+            <td>Genre:</td>
+            <td><select>
+                <option>Pilih Genre</option>
+                <option>Filosofi</option>
+                <option>Pengembangan Diri</option>
+                <option>Horor</option>
+            </select></td>
+        </tr>
+    </table>
+    <br>
+
+    <button type="submit">Tambahkan Buku</button>
+
+</form>
+
+<h2>Syarat Penulisan pada Formulir:</h2>
+
+<ul>
+    <li><b>Judul Buku:</b> Harus diisi. Maksimal 100 karakter.</li>
+    <li><b>Penulis:</b> Harus diisi. Nama lengkap penulis. Maksimal 70 karakter.</li>
+    <li><b>Tahun Terbit:</b> Harus diisi. Berupa angka tahun (eg. 2023). Minimal tahun 1000, maksimal tahun 2025.</li>
+    <li><b>Jumlah Halaman:</b> Harus diisi. Berupa angka jumlah halaman. Minimal 1 halaman.</li>
+    <li><b>Genre:</b> Harus dipilih dari daftar yang tersedia.</li>
+</ul>
+
+</body>
+</html>
